@@ -16,3 +16,8 @@
   color: white;
   text-align: center;
 }
+
+.text-container{
+  background-color: red;
+  border: #333 solid 1px;
+}
