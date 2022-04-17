@@ -1,4 +1,6 @@
 // import Image from 'next/image';
+import styles from '../../styles/Contact.module.css';
+
 
 function IndexTest () {
     return ( 
@@ -7,9 +9,10 @@ function IndexTest () {
     {/* <Image src="/wordpress_logo.jpg" width={250} height={250}/> */}
      </div>
 
-<div>
+<div className={styles.container}>
+<h2>Yhteystiedot</h2>
 <h3>Sähköposti: jani.behm@gmail.com</h3>
-<h4>Puhelin: +358 468 990 315</h4>
+<h3>Puhelin: +358 468 990 315</h3>
 </div>
 </div>
      );

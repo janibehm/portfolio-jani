@@ -14,14 +14,15 @@ export default function Home() {
    </Head>
     <h1 className={styles.title}>Etusivu</h1>
 
-   <div className="text-container">
+   <div className={styles.container}>
    <p className={styles.text}>Olen web-kehittäjä Helsingistä. Oli projekti mikä tahansa voin luvata, että olen täysillä mukana ja asiakkaiden tyytyväisyys on minulle ykkös asia. 
-      Tykkään työskenellä moderneilla teknologioilla, kuten React ja Word Press riippuen projektin luonteesta. Jos sinulla on mielessä projekti, johon tarvitset osaaja voit olla yhteydessä minuun </p>
-
+      Web-sovellus kehityksessä tykkään työskenellä teknologioilla, kuten React/Nextjs ja Word Press riippuen projektin luonteesta. Serveri puolella Nodejs tai php. 
+      Jos sinulla on mielessä projekti, johon tarvitset osaaja voit olla yhteydessä minuun. </p>
+  </div>
       <Link href="/contact">
         <a className={styles.btn}>Ota yhteyttä</a>
       </Link>
-    </div></> 
+ </> 
    
     
     );

@@ -5,6 +5,7 @@
 }
 .text {
   color: #777;
+  font-size: 1.2rem;
 }
 .btn {
   display: block;
@@ -17,7 +18,9 @@
   text-align: center;
 }
 
-.text-container{
-  background-color: red;
-  border: #333 solid 1px;
+.container{
+
+  margin: 0 auto;
+  max-width: 48em;
+
 }
