@@ -13,14 +13,6 @@ const about = () => {
         <h1>Teknologiat</h1>
         </div>
         <div flex-container>
-        <h3>Wordpress</h3>
-        <p className={styles.about }>
-         Hyvä ratkaisu projektissa, jossa halutaan käyttää valmiita tai custom teemoja, sekä plugineja luomaan 
-        web-sivut tai web kauppa.</p> 
-        <div>
-        <Image src="/wordpress_logo.jpg" width={470} height={270}/>
-        </div>
-        <div>
         <h3>React ja Nextjs</h3>
         <p className={styles.about }> Sopivat tilanteeseen, jos halutaan yksityiskohtaiset sivut, sekä
         enemmän hallintaa ja nopeutta.</p>
@@ -32,6 +24,15 @@ const about = () => {
             <Image src="/next-js_logo.png" width={240} height={240}/>
             </div>
             </div>
+        <h3>Wordpress</h3>
+        <p className={styles.about }>
+         Hyvä ratkaisu projektissa, jossa halutaan käyttää valmiita tai custom teemoja, sekä plugineja luomaan 
+        web-sivut tai web kauppa.</p> 
+        <div>
+        <Image src="/wordpress_logo.jpg" width={470} height={270}/>
+        </div>
+        <div>
+    
         </div>
         </div>
         

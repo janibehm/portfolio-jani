@@ -5,7 +5,11 @@ const Navbar = () => {
   return (
         <nav>
     <div className="logo">
-      {/* <Image src="/web_developing.png" width={128} height={77}/> */}
+   
+      <a href="https://www.linkedin.com/in/jani-behm-bb34a2121/">
+      {<Image src="/linkedin_logo.png" width={40} height={40}/>}
+      </a>
+   
     </div>
     
       <Link href="/"><a>Etusivu</a></Link> 
