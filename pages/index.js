@@ -15,9 +15,9 @@ export default function Home() {
     <h1 className={styles.title}>Etusivu</h1>
 
    <div className={styles.container}>
-   <p className={styles.text}>Olen web-kehittäjä Helsingistä. Oli projekti mikä tahansa voin luvata, että olen täysillä mukana ja asiakkaiden tyytyväisyys on minulle ykkös asia. 
-      Web-sovellus kehityksessä tykkään työskenellä teknologioilla, kuten React/Nextjs ja Word Press riippuen projektin luonteesta. Serveri puolella Nodejs tai php. 
-      Jos sinulla on mielessä projekti, johon tarvitset osaaja voit olla yhteydessä minuun. </p>
+   <p className={styles.text}>Olen web-kehittäjä Helsingistä. Oli projekti mikä tahansa voin luvata, että olen täysillä mukana ja asiakkaiden tyytyväisyys on minulle ykkösasia. 
+      Web-sovellus kehityksessä tykkään työskenellä teknologioilla, kuten React/Nextjs ja Word Press riippuen projektin luonteesta. 
+      Myös backend kehitys ja Dev Ops ovat minulle tuttua. Pilviympäristössä ovat projekteissa minulla olleet käytössä mm. Google Cloud, Whm ja Linode.</p>
   </div>
       <Link href="/contact">
         <a className={styles.btn}>Ota yhteyttä</a>
