@@ -13,6 +13,17 @@ const about = () => {
         <h1>Teknologiat</h1>
         </div>
         <div flex-container>
+ 
+        <h3>Wordpress</h3>
+        <p className={styles.about }>
+         Hyvä ratkaisu projektissa, jossa halutaan käyttää valmiita tai custom teemoja, sekä plugineja luomaan 
+         web-sivut tai web kauppa. WordPress (myös WordPress.org) on alun perin blogien luomiseen ja ylläpitoon tarkoitettu, avoimeen lähdekoodin WWW-sisällönhallintaohjelmisto. WordPress on kirjoitettu PHP-kielellä ja se käyttää tietojen tallentamiseen MySQL-tietokantaa.
+         Tammikuussa 2015 internetin 10 miljoonasta suosituimmasta sivustosta 23,3 prosenttia käytti WordPressiä. North Patrolin tutkimuksen mukaan 40 % oppilaitoksista käyttää WordPressiä. Se on suosituin WWW-sisällönhallintajärjestelmä.</p> 
+        <div>
+        <Image src="/wordpress_logo.jpg" width={470} height={270}/>
+        </div>
+        <div>
+
         <h3>React ja Nextjs</h3>
         <p className={styles.about }> Sopivat tilanteeseen, jos halutaan yksityiskohtaiset sivut, sekä
         enemmän hallintaa ja nopeutta.</p>
@@ -24,14 +35,6 @@ const about = () => {
             <Image src="/next-js_logo.png" width={240} height={240}/>
             </div>
             </div>
-        <h3>Wordpress</h3>
-        <p className={styles.about }>
-         Hyvä ratkaisu projektissa, jossa halutaan käyttää valmiita tai custom teemoja, sekä plugineja luomaan 
-        web-sivut tai web kauppa.</p> 
-        <div>
-        <Image src="/wordpress_logo.jpg" width={470} height={270}/>
-        </div>
-        <div>
     
         </div>
         </div>
