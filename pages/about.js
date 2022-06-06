@@ -42,13 +42,20 @@ const about = () => {
               ja todella yksityiskohtaisia sovelluksia. Nextjs mahdollistaa serveripuolen renderöismisen, 
               sekä staattistem sivujen tekemisen, josta on hyötyä mm. sivuston nopeutta ja hakukoneoptimointia ajatellen.
             </p>
-
+            <div className='logo-container'>
             <Image
               src="/next-js_logo.png"
               alt="nextjs_logo"
               width={240}
               height={240}
             />
+                  <Image
+              src="/react_logo.png"
+              alt="reactjs_logo"
+              width={240}
+              height={240}
+            />
+          </div>
           </div>
         </div>
 
