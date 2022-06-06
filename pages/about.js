@@ -27,8 +27,7 @@ const about = () => {
         <h3>React ja Nextjs</h3>
         <p className={styles.about }> 
         React on fron-end javascipt kirjasto, joka mahdollistaa UI komponenteilla web-sivun rakentamisen. Sitä käytetään yleensä "singlepage" tai mobiili ohjelmistojen tekemsiin.
-        Next.js on kehitys ympäristö, joka on rakenettu Node.js päälle, joka mahdollistaa React pohjaisten ohjelmistojen käyttää serveri puolen rendausta, sekä genereoida staattisia websivuja.
-        </p>
+        Next.js on kehitys ympäristö, joka on rakenettu Node.js päälle, joka mahdollistaa React pohjaisten ohjelmistojen käyttää serveri puolen rendausta, sekä genereoida staattisia websivuja.</p>
         <div className='logo-container'>
         
             <Image src="/react_logo.png" width={240} height={240}/>
