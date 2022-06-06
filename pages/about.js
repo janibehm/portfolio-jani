@@ -50,13 +50,14 @@ const about = () => {
               width={240}
               height={240}
             />
-
+            <div className="next-js-logo">
             <Image
               src="/next-js_logo.png"
               alt="nextjs_logo"
               width={240}
               height={240}
             />
+            </div>
           </div>
         </div>
       </div>
