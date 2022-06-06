@@ -4,9 +4,13 @@
   text-align: center;
 }
 .text {
-  color: #777;
+  color: #333;
   font-size: 1.2rem;
 }
+
+/* .contact-text{
+  color: #777;
+} */
 .btn {
   display: block;
   width: 150px;

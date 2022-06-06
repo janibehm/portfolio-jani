@@ -14,14 +14,28 @@ export default function Home() {
    </Head>
     <h1 className={styles.title}>Etusivu</h1>
 
-   <div className={styles.container}>
+   <div>
    <p className={styles.text}>Olen web-kehittäjä Helsingistä. Oli projekti mikä tahansa voin luvata, että olen täysillä mukana ja asiakkaiden tyytyväisyys on minulle ykkösasia. 
       Web-sovellus kehityksessä tykkään työskenellä teknologioilla, kuten React/Nextjs ja Word Press riippuen projektin luonteesta. 
       Myös backend kehitys ja Dev Ops ovat minulle tuttua. Pilviympäristössä ovat projekteissa minulla olleet käytössä mm. Google Cloud, Whm ja Linode.</p>
   </div>
-      <Link href="/contact">
-        <a className={styles.btn}>Ota yhteyttä</a>
+  <div>
+  <div className={styles.text}>
+    
+    <h4>Sähköposti: jani.behm@gmail.com</h4>
+    <h4>Puhelin: +358 468 990 315</h4>
+    </div>
+  <div className={styles.container}>
+  <Link href="/contact">
+        <a className={styles.btn}>Ota yhteyttä lomakkeella</a>
       </Link>
+
+
+</div>
+  </div>
+   
+     
+     
  </> 
    
     
