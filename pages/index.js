@@ -28,7 +28,7 @@ export default function Home() {
       <div>
         <div className={styles.container}>
           <Link href="/contact">
-            <a className={styles.btn}>Ota yhteyttä lomakkeella</a>
+            <a className={styles.btn}>Ota yhteyttä</a>
           </Link>
         </div>
       </div>
